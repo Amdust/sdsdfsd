@@ -1,0 +1,139 @@
+// @import."reset.css"
+// /1200 *100%
+
+html, body{
+  background: #0D0D0E;
+  color: #ffffff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+p{
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+letter-spacing: 1px;
+color: #E5E5E5;
+}
+h1,h2,h3,h4{
+  font-family:'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.wrapper{
+  width: 100%;
+}
+.container{ 
+  width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.btn{
+  font-family: "Paytone One", sans-serif;
+background-color: #ad0594;
+border-radius: 1px;
+display: flex;
+justify-content: center;
+align-items:center;
+color: #ffffff;
+font-size: 18px;
+line-height: 111%;
+&:hover{
+  transform: scale(1.1);
+  transition: all .3s;
+}
+}
+
+.header__inner{
+  position: relative;
+  margin-top:0.5%;
+}
+/* // ---------------------------Header Top-------------------------------------- */
+
+.header__top--inner{
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  align-items: center;
+}
+
+.logo__nav-box{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  
+  .header__logo{
+    margin-right:48px;
+  }
+.nav__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+    .nav__item{
+      margin-right:36px;
+      font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 111%;
+letter-spacing: 1px;
+&:hover{
+  color:#ad0594;
+  transform: scale(1.1);
+  transition: all .3s;
+}
+    }
+}
+}
+
+.btn__header{
+  position: relative;
+  min-width: 130px;
+  width: 213px;
+  height: 40px;
+  z-index: 10;
+}
+
+
+// =================Header__body-=================
+
+  .header__inner{
+    width: 1440px;    
+    margin: 0 auto;
+  }
+  .header__body{
+    display: flex;
+    justify-content: flex-end;
+  }
+.header__content{
+  position: absolute;
+  margin-top: 100 /1200*100%;
+  max-width: 658/1440*100%;
+  left: 8%;
+  z-index: 10;
+  :hover{
+    transform: scale(1.06);
+    transition: all .3s;
+  }
+  .header__content-title{
+    font-family: 'Paytone One';
+font-style: normal;
+font-weight: 400;
+font-size: 84px;
+line-height: 119%;
+letter-spacing: 1px;
+  }
+}  
+
+.header__img{
+  position: relative;
+  &:after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color:#0D0D0E;
+    width: 16%;
+    height: 50%;
+    z-index:2;
+    bottom: 0;
+  }}
